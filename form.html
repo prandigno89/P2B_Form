@@ -1,0 +1,128 @@
+<form class="form-horizontal">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>New Merchant Creator</legend>
+
+        <!-- Merchant ID-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="merchantOperatorCode">Merchant ID</label>
+            <div class="col-md-4">
+                <input id="merchantOperatorCode" name="merchantOperatorCode" type="text" placeholder="000011112222" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- P.IVA -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="merchantVatNumber">Merchant P.IVA or CF</label>
+            <div class="col-md-4">
+                <input id="merchantVatNumber" name="merchantVatNumber" type="text" placeholder="123456789" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- Insegna -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="shopSign">Shop Sign</label>
+            <div class="col-md-4">
+                <input id="shopSign" name="shopSign" type="text" placeholder="I Tre Manici di Scopa" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- Indirizzo Shop -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="shopAddress">Shop Address</label>
+            <div class="col-md-4">
+                <input id="shopAddress" name="shopAddress" type="text" placeholder="Via del Vingardium 12 " class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- Citta Shop-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="shopCity">Shop City</label>
+            <div class="col-md-4">
+                <input id="shopCity" name="shopCity" type="text" placeholder="Hogsmead" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- Shop Province -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="shopProvince">Shop Province</label>
+            <div class="col-md-4">
+                <input id="shopProvince" name="shopProvince" type="text" placeholder="MI" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- Cap Shop-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="shopZipCode">Shop ZIP Code</label>
+            <div class="col-md-4">
+                <input id="shopZipCode" name="shopZipCode" type="number" placeholder="20134" class="form-control input-md" required>
+
+            </div>
+        </div>
+
+        <!-- POS Termid -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="posTermId">POS Termid</label>
+            <div class="col-md-4">
+                <input id="posTermId" name="posTermId" type="number" placeholder="12345678" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- GT -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="posPg">Payment Gateway</label>
+            <div class="col-md-4">
+                <input id="posPg" name="posPg" type="text" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- Bank App Select -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="posRunningApps">Bank App</label>
+            <div class="col-md-4">
+                <select id="posRunningApps" name="posRunningApps" class="form-control" required>
+                    <option value="CB2">CB2</option>
+                    <option value="OTHER">OTHER</option>
+            </select>
+            </div>
+        </div>
+
+         <!-- CB2 Release -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="posBankRelease">POS Bank Release</label>
+            <div class="col-md-4">
+                <input id="posBankRelease" name="posBankRelease" type="text" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- POS Model -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="posModel">POS Model</label>
+            <div class="col-md-4">
+                <input id="posModel" name="posModel" type="text" class="form-control input-md" required>
+            </div>
+        </div>
+
+          <!-- POS Serial -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="posSerial">POS Serial</label>
+            <div class="col-md-4">
+                <input id="posSerial" name="posSerial" type="text" class="form-control input-md" required>
+            </div>
+        </div>
+
+        <!-- Connection Select -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="posConnection">POS Connection</label>
+            <div class="col-md-4">
+                <select id="posConnection" name="posConnection" class="form-control" required>
+                    <option value="ETH">ETH</option>
+                    <option value="GPRS">GPRS</option>
+                    <option value="WIFI">WIFI</option>
+            </select>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
